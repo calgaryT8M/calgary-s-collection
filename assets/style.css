@@ -173,7 +173,7 @@ img {
   align-items: end;
   justify-content: space-between;
   gap: 10px;
-  margin: -40px 0 10px;
+  margin: -0px 0 10px;
 }
 
 .section-title {
@@ -505,13 +505,31 @@ dialog::backdrop {
   }
 
   .about-section {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 30px;
     margin-top: 42px;
   }
 
+  .about-copy {
+    display: contents;
+  }
+
+  .about-heading {
+    order: 1;
+  }
+
+  .about-text {
+    order: 2;
+  }
+
   .hero-profile {
+    order: 3;
     justify-content: flex-start;
+  }
+
+  .social-links {
+    order: 4;
   }
 
   .hero-profile img {
@@ -542,6 +560,7 @@ dialog::backdrop {
   .modal-body {
     padding: 24px 18px 36px;
   }
+
 }/* SOCIAL LINKS */
 
 .social-links {
