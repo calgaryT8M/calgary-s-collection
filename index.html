@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A curated music memorabilia collection." />
+  <title>My Music Collection</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap nav">
+      <button class="brand" id="homeButton" type="button">THE ARCHIVE</button>
+      <button class="back-button hidden" id="backButton" type="button">← Back</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero wrap" id="hero">
+      <p class="eyebrow">PRIVATE MUSIC ARCHIVE</p>
+      <h1>My Music Collection</h1>
+      <p>A curated collection of physical releases, merchandise, passes and memories.</p>
+    </section>
+
+    <section class="wrap" id="app"></section>
+  </main>
+
+  <dialog id="itemModal">
+    <button class="close" id="closeModal" aria-label="Close">×</button>
+    <div id="modalContent"></div>
+  </dialog>
+
+  <footer>
+    <div class="wrap footer-inner">
+      <span>Private music collection</span>
+      <span>Independent fan archive</span>
+    </div>
+  </footer>
+
+  <script src="data/collection.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+<rect width="1200" height="1500" fill="#171717"/>
+<rect x="50" y="50" width="1100" height="1400" fill="none" stroke="#d2b56d" stroke-width="3"/>
+<text x="600" y="720" fill="#d2b56d" font-family="Arial" font-size="56" text-anchor="middle">item-03</text>
+<text x="600" y="790" fill="#aaa" font-family="Arial" font-size="28" text-anchor="middle">REPLACE WITH YOUR PHOTO</text>
+</svg>
