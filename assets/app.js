@@ -134,7 +134,6 @@ function renderEras() {
                 </span>
 
                 <h3>${era.title}</h3>
-                <p>${era.subtitle}</p>
               </div>
             </button>
           `;
